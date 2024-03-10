@@ -1,0 +1,36 @@
+.movies-list-container {
+    display: flex;
+    max-width: 80%;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.film-overview {
+    position: absolute; 
+    bottom: 0; 
+    padding: 4px; 
+    background-color: #3b3b3bd4; 
+    margin: 0px;
+    visibility: hidden;
+}
+
+.film-card {
+    padding: 8px;
+    margin: 4px;
+    background: #3b3b3b;
+    border-radius: 24px;
+}
+  
+.film-card:hover .film-overview {
+    visibility: visible;
+}
+
+.film-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}

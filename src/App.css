@@ -36,16 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.film-overview {
-  position: absolute; 
-  bottom: 0; 
-  padding: 4px; 
-  background-color: #3b3b3bd4; 
-  margin: 0px;
-  visibility: hidden;
-}
-
-.film-card:hover .film-overview {
-  visibility: visible;
-}
